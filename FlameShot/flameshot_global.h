@@ -1,0 +1,12 @@
+#ifndef FLAMESHOT_GLOBAL_H
+#define FLAMESHOT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(FLAMESHOT_LIBRARY)
+#  define FLAMESHOTSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define FLAMESHOTSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // FLAMESHOT_GLOBAL_H
