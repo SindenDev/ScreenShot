@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>qss/abc.qss</file>
-        <file>qss/abc.qss~</file>
         <file>qss/abc_satellite.qss</file>
         <file>qss/branch-closed.png</file>
         <file>qss/branch-end.png</file>
@@ -33,7 +32,6 @@
         <file>qss/minimize_hover.png</file>
         <file>qss/no.qss</file>
         <file>qss/phonegui.qss</file>
-        <file>qss/phonegui.qss.bak</file>
         <file>qss/radiobutton_checked.png</file>
         <file>qss/radiobutton_checked_hover.png</file>
         <file>qss/radiobutton_checked_pressed.png</file>
